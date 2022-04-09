@@ -1,0 +1,24 @@
+.portfolioList {
+  font-size: 30px;
+  margin-right: 50px;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #1b1b83;
+}
+
+@media (max-width: 768px) {
+  .portfolioList {
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}
+
+.portfolioList.active {
+  background-color: #255dc4;
+  color: white;
+}
+/*# sourceMappingURL=portfolioList.css.map */

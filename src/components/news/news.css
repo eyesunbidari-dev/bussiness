@@ -1,0 +1,109 @@
+.Tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 150px;
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .Tabs {
+    width: 100%;
+    height: 100%;
+    margin-top: -70px;
+    background-color: #fff;
+  }
+}
+
+.Tabs .tabContent {
+  background-color: #fff;
+  height: 100vh;
+  width: 88%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .Tabs .tabContent {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+.tabsList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  .tabsList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.tabsList .tabHead {
+  padding: 50px;
+  box-shadow: -4px 0px 7px -1px rgba(19, 18, 122, 0.75);
+  -webkit-box-shadow: -4px 0px 7px -1px rgba(19, 18, 122, 0.75);
+  -moz-box-shadow: -4px 0px 7px -1px rgba(19, 18, 122, 0.75);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .tabsList .tabHead {
+    padding: 5px;
+    font-size: 9px;
+    width: 150px;
+    height: 50px;
+  }
+}
+
+.active {
+  background-color: #96beec;
+  box-shadow: -4px 0px 7px -1px rgba(19, 18, 122, 0.75);
+  -webkit-box-shadow: -4px 0px 7px -1px rgba(19, 18, 122, 0.75);
+  -moz-box-shadow: -4px 0px 7px -1px rgba(19, 18, 122, 0.75);
+  color: black;
+}
+/*# sourceMappingURL=news.css.map */
